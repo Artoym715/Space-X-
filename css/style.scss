@@ -1,0 +1,37 @@
+$bodycolor: #010001;
+$item-link-color: #fff;
+$font-family:'Roboto',
+sans-serif;
+
+body {
+	background: $bodycolor;
+	margin: 0;
+	padding-top: 53px;
+	font-family: $font-family;
+
+}
+
+.header {
+	max-width: 1320px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+
+}
+
+.item-link {
+	color: $item-link-color;
+	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 12px;
+	line-height: 14px;
+}
