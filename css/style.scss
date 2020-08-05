@@ -2,10 +2,15 @@ $bodycolor: #010001;
 $item-link-color: #fff;
 $font-family:'Roboto',
 sans-serif;
+$text-color: #fff;
+$color-line:#fff;
+$secondary-nav-link:#808080;
+$color-features-title:#fff;
 
 body {
 	background: $bodycolor;
 	margin: 0;
+	color: $text-color;
 	padding-top: 53px;
 	font-family: $font-family;
 
@@ -34,4 +39,97 @@ body {
 	margin-right: 10px;
 	font-size: 12px;
 	line-height: 14px;
+}
+
+.main {
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 30px;
+}
+
+.title {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 75px;
+	margin-bottom: 26px;
+	margin-top: 0;
+}
+
+.description {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 140%;
+	max-width: 268px;
+	margin: auto;
+}
+
+.description::after {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 60px;
+	background-color: $color-line;
+	margin: auto;
+	margin-top: 26px;
+}
+
+.video {
+	max-width: 1320px;
+	width: 90%;
+	height: 750px;
+	margin: auto;
+}
+
+.secondary-nav .item-link {
+	color: $secondary-nav-link;
+}
+
+.features-title {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 140%;
+	color: $color-features-title;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.features {
+	position: relative;
+	max-width: 1320px;
+	width: 90%;
+	margin: auto;
+	padding: 100px 0;
+
+}
+
+.table {
+	margin-bottom: 200px;
+}
+
+.table-coloum {
+	width: 300px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 179.69%;
+}
+
+.features-text {
+	max-width: 490px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 29px;
+}
+
+.rocket {
+	position: absolute;
+	top: 100px;
+	right: 0;
+	z-index: 99;
 }
