@@ -126,4 +126,146 @@ body {
   top: 100px;
   right: 0;
   z-index: 99;
+  max-width: 300px;
+}
+
+.grey {
+  color: #B2B0B2;
+}
+
+.footer {
+  padding: 130px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer.logo {
+  margin-bottom: 43px;
+}
+
+.footer-nav {
+  margin-top: 28px;
+}
+
+.footer.item-link {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.footer-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #808080;
+  margin-bottom: 30px;
+}
+
+.footer-link {
+  color: #808080;
+  text-decoration: none;
+}
+
+.button {
+  color: #fff;
+  min-width: 260px;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6px;
+}
+
+@media (max-width: 960px) {
+  .rocket {
+    max-width: 230px;
+  }
+
+  .table-coloum {
+    width: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .header .logo {
+    margin-bottom: 20px;
+  }
+
+  .header .main-nav {
+    margin-bottom: 20px;
+  }
+
+  .rocket {
+    max-width: 180px;
+  }
+
+  .video {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .rocket {
+    position: static;
+    margin-bottom: 30px;
+  }
+
+  .table {
+    margin-bottom: 0;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .table-coloum {
+    font-size: 14px;
+    width: 150px;
+  }
+
+  .footer-nav .list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .footer-nav .item {
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .main {
+    padding-top: 50px;
+  }
+
+  .features {
+    padding-bottom: 0;
+  }
 }
